@@ -1,0 +1,60 @@
+#home {
+  #tracks {
+    background-color: grey;
+    
+    ul {
+      li {
+        background-color: orange;
+        text-align: center;
+        font-family: "Helvetica";
+        font-size: 50px;
+        margin-bottom: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        list-style-type: none;
+        cursor: pointer;
+        
+        &:hover {
+          background-color: green; 
+        }
+      }
+    }
+  }
+  
+  #playlist {
+    background-color: orange;
+    height: 800px;
+    
+    .title {
+      background-color: gray;
+    }
+    
+    .draghere {
+      border: 1px dashed white;
+      width: 500px;
+      font-size: 30px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      border-radius: 10px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+    }
+    
+    .sortable {
+      height: 1000px;
+      li {
+        background-color: green;
+        text-align: center;
+        font-family: "Helvetica";
+        font-size: 50px;
+        margin-bottom: 10px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        list-style-type: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
